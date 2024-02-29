@@ -104,7 +104,7 @@ void Platform_Constructor(void)
     {CY_ASSERT(0);}
 
     /*Initialize BGT60TR13C Power Control pin*/
-    result = cyhal_gpio_init(ARDU_IO3, CYHAL_GPIO_DIR_OUTPUT, CYHAL_GPIO_DRIVE_STRONG, false); /*Keep it OFF*/
+    result = cyhal_gpio_init(ARDU_IO3, CYHAL_GPIO_DIR_OUTPUT, CYHAL_GPIO_DRIVE_STRONG, true); /*Turn it ON*/
     if (result != CY_RSLT_SUCCESS)
     {CY_ASSERT(0);}
 
@@ -119,8 +119,8 @@ void Platform_Constructor(void)
     CyDelay(20);
     cyhal_gpio_write(RAD_RSTN, true);
 
-    /*Initialize NJR4652F2S2 RESET pin*/
-    result = cyhal_gpio_init(ARDU_IO5, CYHAL_GPIO_DIR_OUTPUT, CYHAL_GPIO_DRIVE_OPENDRAINDRIVESLOW, false); /*Keep it OFF*/
+    /*Initialize NJR4652F2S2 POWER pin*/
+    result = cyhal_gpio_init(ARDU_IO7, CYHAL_GPIO_DIR_OUTPUT, CYHAL_GPIO_DRIVE_OPENDRAINDRIVESLOW, false); /*Keep it OFF*/
     if (result != CY_RSLT_SUCCESS)
     {CY_ASSERT(0);}
 

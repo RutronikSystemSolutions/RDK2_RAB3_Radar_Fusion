@@ -10,7 +10,7 @@ Radar Fusion GUI detects only the BGT60TR13C part of the RAB3-Radar adapter boar
 
 - [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.1**]
 - [Radar Fusion GUI](https://softwaretools.infineon.com/tools/com.ifx.tb.tool.radarfusiongui) [tested with **v3.5.4**]
-- [RAB3-Radar Rev.0](https://github.com/RutronikSystemSolutions/RAB3_Radar_Hardware_Files/tree/main/Rev0) Rutronik Adapter Board
+- [RAB3-Radar Rev.1](https://github.com/RutronikSystemSolutions/RAB3_Radar_Hardware_Files) [official first release] Rutronik Adapter Board
 - [RDK2](https://github.com/RutronikSystemSolutions/RDK2_Documents) Rutronik Development Kit
 
 ## Using the code example
