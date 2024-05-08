@@ -13,6 +13,10 @@ Radar Fusion GUI detects only the BGT60TR13C part of the RAB3-Radar adapter boar
 - [RAB3-Radar Rev.1](https://github.com/RutronikSystemSolutions/RAB3_Radar_Hardware_Files) [official first release] Rutronik Adapter Board
 - [RDK2](https://github.com/RutronikSystemSolutions/RDK2_Documents) Rutronik Development Kit
 
+## Supported toolchains (make variable 'TOOLCHAIN')
+
+- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
+
 ## Using the code example
 
 Create the project and open it using one of the following:
