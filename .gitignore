@@ -82,6 +82,7 @@ Backup*
 # Compiled Binaries
 *.bin
 *.elf
+!binary/*.elf
 *.hex
 *.map
 

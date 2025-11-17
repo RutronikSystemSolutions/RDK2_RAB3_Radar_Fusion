@@ -17,6 +17,11 @@ Radar Fusion GUI detects only the BGT60TR13C part of the RAB3-Radar adapter boar
 
 - GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
+> [!CAUTION]
+> Does not work with Arm GNU Toolchain (GCC) 14.2.1
+
+You have the possibility to flash the device directly, using MTB Programmer and the binary elf file provided.
+
 ## Using the code example
 
 Create the project and open it using one of the following:
